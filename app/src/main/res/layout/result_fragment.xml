@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+
+    >
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie1"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:text="제목1"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar1"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie2"
+            android:layout_weight="5"
+            android:text="제목2"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar2"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie3"
+            android:layout_weight="5"
+            android:text="제목3"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar3"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie4"
+            android:layout_weight="5"
+            android:text="제목4"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar4"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie5"
+            android:layout_weight="5"
+            android:text="제목5"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar5"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie6"
+            android:layout_weight="5"
+            android:text="제목6"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar6"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie7"
+            android:layout_weight="5"
+            android:text="제목7"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar7"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie8"
+            android:layout_weight="5"
+            android:text="제목8"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar8"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie9"
+            android:layout_weight="5"
+            android:text="제목9"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar9"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/movie10"
+            android:layout_weight="5"
+            android:text="제목10"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/bar10"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+</TableLayout>
